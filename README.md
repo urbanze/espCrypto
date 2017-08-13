@@ -10,4 +10,36 @@ Para mais informações sobre a biblioteca de encriptação usada, clique aqui: 
 
 
 
+Instalação inicial
+
+
+1-) Faça o download desta biblioteca (espCrypto) e também da biblioteca de encriptação (AES, https://github.com/spaniakos/AES).
+
+2-) Instale ambas na sua pasta de bibliotecas, normalmente está na própria pasta da IDE Arduino, ou na pasta Arduino em seus documentos.
+
+
+
 Arduino
+
+Apenas instale as duas bibliotecas e use normalmente, para mais informações sobre os comandos, veja o arquivo espCrypto.ino .
+
+
+
+ESP8266
+
+Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta da PROGMEM, declarada no arquivo AES_config.h .
+
+1-) Abra o arquivo AES_config.h com o bloco de notas ou algum editor de sua preferência.
+
+2-) Edite esta parte:
+#else
+	#include <avr/pgmspace.h>
+#endif
+
+
+para ficar assim:
+#else
+	#include <pgmspace.h>
+#endif
+
+3-) Salve o arquivo e já esta pronto para uso.
