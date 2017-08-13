@@ -43,6 +43,7 @@ Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta
 
 para ficar assim:
 
+
 #else
 	#include <pgmspace.h>
 #endif
