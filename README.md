@@ -58,7 +58,7 @@ A função setKey serve para adicionar a chave de encriptação nos algoritimos,
 
 espCrypto::encrypt(String text)
 
-A função encrypt, retorna uma String encriptada. O texto precisa ter menos que 16 caracteres. Exemplo: encrypt("oi"); irá retornar "e2 de 32 b2 53 87 c8 4b 71 3a 95 6f 6 2e 9b b9" com a chave usada.
+A função encrypt, retorna uma String encriptada. O texto precisa ter menos que 16 caracteres. Exemplo: encrypt("oi"); irá retornar "e2de32b25387c84b713a956f062e9bb9" com a chave usada.
 
 -----------------------------------------------------------------------------------------------------------------------
 
