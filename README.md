@@ -21,7 +21,7 @@ Para mais informações sobre a biblioteca de encriptação usada, clique aqui: 
 
 # Arduino
 
-Apenas instale as duas bibliotecas e use normalmente, para mais informações sobre os comandos, veja o arquivo espCrypto.ino .
+Apenas instale as duas bibliotecas e use normalmente, para mais informações sobre os comandos, veja as instruçoes abaixo.
 
 
 
@@ -51,4 +51,22 @@ para ficar assim:
 
 3-) Salve o arquivo e já esta pronto para uso.
 
-Para mais informações sobre os comandos, veja o arquivo espCrypto.ino .
+Para mais informações sobre os comandos, veja as instruçoes abaixo.
+
+# Instruções da biblioteca
+
+espCrypto::setKey(String key)
+
+A função setKey serve para adicionar a chave de encriptação nos algoritimos, os valores de chaves são: 16, 24 ou 32 caracteres. Exemplo: setKey("1234567890123456");
+
+-----------------------------------------------------------------------------------------------------------------------
+
+espCrypto::encrypt(String text)
+
+A função encrypt, retorna uma String encriptada. O texto precisa ter menos que 16 caracteres. Exemplo: encrypt("oi"); irá retornar "e2 de 32 b2 53 87 c8 4b 71 3a 95 6f 6 2e 9b b9" com a chave usada.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+espCrypto:decrypt(String text)
+
+A função decrypt, retorna a String desencriptada. O Texto precisa ter 32 caracteres, sem espaços ou coisas do tipo. Exemplo: decrypt("e2de32b25387c84b713a956f062e9bb9"); irá retornar "oi" com a chave usada.
