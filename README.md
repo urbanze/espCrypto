@@ -37,10 +37,10 @@ Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta
 #endif
 
 
-para ficar assim:
-#else
+para ficar assim:\n
+#else\n
 	#include <pgmspace.h>
-#endif
+#endif\n
 
 3-) Salve o arquivo e já esta pronto para uso.
 
