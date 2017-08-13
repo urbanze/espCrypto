@@ -32,15 +32,22 @@ Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta
 1-) Abra o arquivo AES_config.h com o bloco de notas ou algum editor de sua preferência.
 
 2-) Edite esta parte:
+
 #else
+
 	#include <avr/pgmspace.h>
+	
 #endif
 
 
-para ficar assim:\n
-#else\n
+
+para ficar assim:
+
+#else
+
 	#include <pgmspace.h>
-#endif\n
+	
+#endif
 
 3-) Salve o arquivo e já esta pronto para uso.
 
