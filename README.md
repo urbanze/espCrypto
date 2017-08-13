@@ -7,6 +7,7 @@ Esta biblioteca, é uma abstração de outra biblioteca (https://github.com/span
 Testada em Arduino UNO, MEGA e ESP8266. Para usa-la no ESP8266, veja o tutorial logo abaixo.
 
 Para mais informações sobre a biblioteca de encriptação usada, clique aqui: https://github.com/spaniakos/AES
+Para mais informações sobre encriptação e segurança de dados, clique aqui: http://portal.vidadesilicio.com.br/seguranca-de-dados-com-aes/
 
 A biblioteca esta em desenvolvimento e também não oferece garantia nenhuma de funcionamento. Qualquer BUG, por favor reporte!
 
