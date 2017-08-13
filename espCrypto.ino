@@ -1,7 +1,9 @@
 /*
  Name:		espCrypto.ino
  Created:	13/08/2017 19:34:34
- Author:	JosÈ morais
+ Author:	Jos√© morais
+ 
+ Exemplo de encripta√ß√£o usando espCrypto.
 */
 
 #include <EspCrypto.h>
@@ -11,13 +13,13 @@ espCrypto esp;
 
 void setup()
 {
-	Serial.begin(115200);//Inicia a comunicaÁ„o serial.
+	Serial.begin(115200);//Inicia a comunica√ß√£o serial.
 
 
-	esp.setKey("1234567890123456");//Adicionado a chave para encriptaÁ„o, mantenha em segredo!
+	esp.setKey("1234567890123456");//Adiciona a chave para encripta√ß√£o, mantenha isto em segredo!
 
 
-	Serial.println(esp.encrypt("oi"));//Printamos a String criptografada retornada pela funÁ„o encrypt.
+	Serial.println(esp.encrypt("oi"));//Printamos a String criptografada retornada pela fun√ß√£o encrypt.
 }
 
 
