@@ -34,7 +34,9 @@ Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta
 2-) Edite esta parte:
 
 #else
+
 	#include <avr/pgmspace.h>
+
 #endif
 
 
