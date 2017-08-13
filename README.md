@@ -8,6 +8,8 @@ Testada em Arduino UNO, MEGA e ESP8266. Para usa-la no ESP8266, veja o tutorial 
 
 Para mais informações sobre a biblioteca de encriptação usada, clique aqui: https://github.com/spaniakos/AES
 
+A biblioteca esta em desenvolvimento e também não oferece garantia nenhuma de funcionamento. Qualquer BUG, por favor reporte!
+
 
 
 # Instalação inicial
