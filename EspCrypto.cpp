@@ -10,10 +10,10 @@ void espCrypto::setKey(String key)
 
 String espCrypto::decrypt(String text)
 {
-	byte key[16], out[16], inp[16];
+	byte key[32], out[16], inp[16];
 
 
-	if (text.length() > 32)
+	if (text.length() != 32)
 	{
 		return "TEXT LENGHT ERROR.";
 	}
@@ -61,7 +61,7 @@ String espCrypto::decrypt(String text)
 
 String espCrypto::encrypt(String text)
 {
-	byte key[16], out[16], inp[16];
+	byte key[32], out[16], inp[16];
 
 	if (text.length() > 15)
 	{
