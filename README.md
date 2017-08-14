@@ -31,7 +31,7 @@ Apenas instale as duas bibliotecas e use normalmente, para mais informações so
 
 # ESP8266
 
-Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta da PROGMEM, declarada no arquivo AES_config.h .
+Para o funcionamento da encriptação no ESP8266, é necessário alterar a pasta da PGMSPACE, declarada no arquivo AES_config.h .
 
 1-) Abra o arquivo AES_config.h com o bloco de notas ou algum editor de sua preferência.
 
