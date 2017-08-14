@@ -3,7 +3,6 @@
 #include <AES.h>
 
 
-
 class espCrypto
 {
 public:
@@ -14,12 +13,6 @@ public:
 private:
 	String _key;
 };
-
-
-
-
-
-
 
 
 #endif

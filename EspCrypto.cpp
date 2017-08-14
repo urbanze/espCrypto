@@ -2,6 +2,7 @@
 
 AES aes;
 
+
 void espCrypto::setKey(String key)
 {
 	_key = key;
@@ -88,14 +89,18 @@ String espCrypto::encrypt(String text)
 	}
 
 	String a = "";
-	char buffer[6];
+	char buffer[2];
 
 	for (byte i = 0; i < 16; i++)
 	{
 		itoa(out[i], buffer, 16);
 
+		if (strtol(buffer, NULL, 16) < 16)
+		{
+			a += "0";
+		}
+
 		a += buffer;
-		a += " ";
 	}
 
 	aes.clean();
