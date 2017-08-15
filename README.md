@@ -73,5 +73,5 @@ A função decrypt, retorna a String desencriptada. O Texto precisa ter 32 carac
 
 sha1(String text)
 
-A função sha1, retorna o hash da String. Hash são uma ótima escolha para senhas, já que é IRREVERSIVEL. Um método para utiliza-la é gerar o Hash de uma senha e comparar com outro Hash, se forem iguais, logo, a senha é a mesma.
+A função sha1, retorna o hash da String. Hash são uma ótima escolha para senhas, já que é IRREVERSIVEL. Um método para utiliza-la é gerar o Hash de uma senha e comparar com outro Hash, se forem iguais, logo, a senha é a mesma. Exemplo: sha1("oi"); irá retornar "ef67e0868c98e5f0b0e2fcd9b0c4a3bad808f551" e é IMPOSSÍVEL (atualmente) retornar a mensagem original, o único método para descobrir é via Brute-Force e Word-List.
 Para mais informações sobre Hash, clique aqui: https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash
