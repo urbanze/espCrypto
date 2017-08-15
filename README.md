@@ -68,3 +68,10 @@ A função encrypt, retorna uma String encriptada. O texto precisa ter menos que
 espCrypto:decrypt(String text)
 
 A função decrypt, retorna a String desencriptada. O Texto precisa ter 32 caracteres, sem espaços ou coisas do tipo. Exemplo: decrypt("e2de32b25387c84b713a956f062e9bb9"); irá retornar "oi" com a chave usada.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+sha1(String text)
+
+A função sha1, retorna o hash da String. Hash são uma ótima escolha para senhas, já que é IRREVERSIVEL. Um método para utiliza-la é gerar o Hash de uma senha e comparar com outro Hash, se forem iguais, logo, a senha é a mesma.
+Para mais informações sobre Hash, clique aqui: https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash
