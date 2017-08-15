@@ -1,6 +1,7 @@
 #ifndef espCrypto_H
 #define espCrypto_H
 #include <AES.h>
+#include <Hash.h>
 
 
 class espCrypto
